@@ -1,0 +1,66 @@
+
+.header{
+    border: 8px solid hwb(66 10% 3%);
+    border-radius: 30px;
+}
+
+.header:hover{
+    background-color:hsl(55, 68%, 54%);   
+}
+
+
+.nav {
+    background-color:rgb(255, 248, 248);
+    background-image: url("starbuckslogo.png");
+    background-repeat: no-repeat;
+   overflow: hidden;
+   height: 210px;
+}
+
+.nav a{
+float: right;
+color: #017143;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 30px;
+}
+
+.nav  a:hover{
+background-color:rgb(245, 235, 235);
+color: black;
+}
+
+
+.nav a.active{
+background-color: aqua;
+color: rgb(4, 93, 14);
+}
+
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    align-content: normal;
+    position: static;
+    color: #017143;
+}
+
+
+.img{
+    height: 600px;
+    background-color: rgb(255, 248, 248);
+    color: rgb(255, 248, 248);
+    display: inline-block;
+    width: 700px;  
+}
+
+
+.menulist{
+    background-color: rgb(255, 248, 248);
+    border-radius: 250%;
+}
